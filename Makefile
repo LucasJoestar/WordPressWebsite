@@ -1,6 +1,6 @@
 .PHONY: server save
 
-commit = "test"
+commit ?= "test"
 
 server:
 	php -S localhost:8000 -d display_errors=1
